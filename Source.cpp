@@ -55,11 +55,11 @@ int main()
 		add_sortElem(bookshelf, &phead, SBElem);
 		sym_c = getc(fp);
 		fseek(fp, -1, 1);
-	} while (sym_c != '.');      //Ηΰοθρ ελεμενς³β β ροθρξκ
+	} while (sym_c != '.');      //Γ‡Γ Γ―Γ¨Γ± Γ¥Γ«Γ¥Γ¬Γ¥Γ­Γ²Β³ΓΆ ΓΆ Γ±Γ―Γ¨Γ±Γ®Γª
 
 	if(isEmpty(phead))  return 3;
 	//
-	// Μενώ
+	// ΓΓ¥Γ­ΓΎ
 	//
 	while (1)
 	{
@@ -90,4 +90,4 @@ int main()
 			return 0;
 		}
 	}
-}
+} //JJ
